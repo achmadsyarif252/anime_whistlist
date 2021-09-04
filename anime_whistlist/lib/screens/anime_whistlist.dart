@@ -45,7 +45,7 @@ class WhistListAnime extends StatelessWidget {
                               suffixIcon: IconButton(
                                 onPressed: () {},
                                 icon: Icon(
-                                  Icons.close,
+                                  Icons.add,
                                 ),
                               ),
                             ),
