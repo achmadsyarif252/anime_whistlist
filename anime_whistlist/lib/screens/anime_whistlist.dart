@@ -21,7 +21,7 @@ class WhistListAnime extends StatelessWidget {
       body: whistList.isEmpty
           ? Center(
               child: Text(
-                'WhistList Anime Kosong\nSilakan tambah anime ke sini',
+                'WhistList Anime Kosong',
                 textAlign: TextAlign.center,
               ),
             )
