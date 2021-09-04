@@ -40,7 +40,7 @@ class WhistListAnime extends StatelessWidget {
                             decoration: InputDecoration(
                               border: OutlineInputBorder(),
                               prefixIcon: Icon(Icons.search),
-                              hintText: 'Search in WhistList Anime',
+                              hintText: 'Cari di WhistList Anime',
                               suffixIcon: IconButton(
                                 onPressed: () {},
                                 icon: Icon(
