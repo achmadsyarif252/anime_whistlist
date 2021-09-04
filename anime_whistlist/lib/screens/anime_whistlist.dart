@@ -16,6 +16,7 @@ class WhistListAnime extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Whist list Anime'),
+        centerTitle:true,
       ),
       body: whistList.isEmpty
           ? Center(
