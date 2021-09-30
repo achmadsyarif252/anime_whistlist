@@ -46,10 +46,10 @@ class _DetailAnimeScreenState extends State<DetailAnimeScreen> {
           child: Icon(
               widget.isFavorite(idAnime) ? Icons.star : Icons.star_border)),
       appBar: AppBar(
-        backgroundColor: Colors.white,
-        elevation: 0.0,
+        backgroundColor: Colors.blue,
+        elevation: 2.0,
         title: Text(
-          'Detail Anime',
+          'Detail Anime Screen',
           style: TextStyle(
             color: Colors.black,
           ),
@@ -119,7 +119,7 @@ class _DetailAnimeScreenState extends State<DetailAnimeScreen> {
           BottomNavigationBarItem(
             title: Text('Episode'),
             icon: Icon(
-              Icons.account_circle_outlined,
+              Icons.add,
             ),
           ),
         ],
